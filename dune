@@ -1,0 +1,14 @@
+(executable
+ (name simple_race)
+ (modules simple_race)
+ (libraries unix))
+
+(executable
+ (name norace_atomics)
+ (modules norace_atomics)
+ (libraries unix))
+
+(executable
+ (name atomic_sync)
+ (modules atomic_sync)
+ (libraries unix))
