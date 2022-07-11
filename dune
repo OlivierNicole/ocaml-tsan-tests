@@ -4,6 +4,11 @@
  (libraries unix))
 
 (executable
+ (name array_elt)
+ (modules array_elt)
+ (libraries unix))
+
+(executable
  (name norace_atomics)
  (modules norace_atomics)
  (libraries unix))
